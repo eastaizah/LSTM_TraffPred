@@ -3,7 +3,6 @@
 Python simulation suite for the paper:
 
 > **"LSTM-Based Traffic Prediction for Proactive Resource Management in 5G Networks"**
-> IEEE Wireless Communications — proposed submission (Q1)
 
 ---
 
@@ -76,7 +75,7 @@ Algorithm 3 uses `μ̂ + k·σ̂` (k=1.65 for 95th-percentile headroom) as the p
 ## Repository Structure
 
 ```
-P10/
+LSTM_TraffPred/
 ├── README.md                                      # This file
 └── simulations/
     ├── generate_datasets.py          # Dataset generation (Milano, Shanghai, Synthetic 5G)
@@ -87,8 +86,6 @@ P10/
     ├── proactive_resource_management.py  # Algorithms 3–5
     ├── generate_figures.py           # Generates all 8 article figures as PNG
     ├── plot_figures.py               # Alternative figure generation
-    ├── BENCHMARK_REFERENCES.md      # Reference values documentation
-    ├── environment.yml               # Conda environment
     ├── requirements.txt              # pip requirements
     └── results/
         ├── benchmark_table_i.npz         # Table I results
